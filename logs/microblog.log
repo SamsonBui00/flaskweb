@@ -1,0 +1,51 @@
+2022-04-29 06:09:30,758 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:09:57,456 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:10:10,692 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:10:17,149 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:10:21,875 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:12:01,317 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:13:38,073 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:14:40,005 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:15:11,113 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:17:45,040 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 06:18:18,057 INFO: Microblog startup [in C:\Users\User\PycharmProjects\Correct\EA_project_A02\EA_project_A02-Alex_Correct\microblog\app\__init__.py:74]
+2022-04-29 16:54:06,393 INFO: Microblog startup [in D:\microblog\app\__init__.py:74]
+2022-04-29 16:54:12,069 INFO: Microblog startup [in D:\microblog\app\__init__.py:74]
+2022-04-29 16:54:18,848 INFO: Microblog startup [in D:\microblog\app\__init__.py:74]
+2022-04-29 16:54:56,354 INFO: Microblog startup [in D:\microblog\app\__init__.py:74]
+2022-04-29 16:56:30,770 ERROR: Exception on /upload_hottopic [POST] [in D:\microblog\venv\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\microblog\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\microblog\app\main\routes.py", line 214, in upload_hottopic
+    file.save(os.path.join(Config.UPLOAD_FOLDER, filename))
+  File "D:\microblog\venv\lib\site-packages\werkzeug\datastructures.py", line 3021, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'app\\static\\image\\1366x768-2874782-cowboy-bebop-swordfish-ii-anime___anime-wallpapers.jpg'
+2022-04-29 16:59:14,182 ERROR: Exception on /upload_hottopic [POST] [in D:\microblog\venv\lib\site-packages\flask\app.py:1457]
+Traceback (most recent call last):
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\microblog\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\microblog\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "D:\microblog\app\main\routes.py", line 214, in upload_hottopic
+    file.save(os.path.join(Config.UPLOAD_FOLDER, filename))
+  File "D:\microblog\venv\lib\site-packages\werkzeug\datastructures.py", line 3021, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'app\\static\\image\\1366x768-2874782-cowboy-bebop-swordfish-ii-anime___anime-wallpapers.jpg'
+2023-05-02 16:53:41,397 INFO: Microblog startup [in C:\Users\210277966\Downloads\flask_web\app\__init__.py:74]
+2023-05-02 16:59:59,138 INFO: Microblog startup [in C:\Users\210277966\Downloads\flask_web\app\__init__.py:74]
